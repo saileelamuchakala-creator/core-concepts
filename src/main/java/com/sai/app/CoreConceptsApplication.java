@@ -1,13 +1,27 @@
 package com.sai.app;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
+//@SpringBootApplication
 public class CoreConceptsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoreConceptsApplication.class, args);
+		
+		Sai sai=new Sai();
+		sai.setName("SaiLeela");
+		sai.setAge(23);
+		
+		
+		System.out.println("Name..."+sai);
+		
+		System.out.println("Name only name ..."+sai.getName());
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

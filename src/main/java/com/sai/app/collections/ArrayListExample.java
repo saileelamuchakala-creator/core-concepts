@@ -1,9 +1,11 @@
 package com.sai.app.collections;
 
-public class ArrayList { 
+import java.util.ArrayList;
+
+public class ArrayListExample { 
 	public static void main(String[] args) {
 		
-	 	java.util.ArrayList<String> names = new java.util.ArrayList<>();
+	 	ArrayList<String> names = new java.util.ArrayList<>();
 	 	 
 	 	names.add("venky");
 	 	names.add("sai");
